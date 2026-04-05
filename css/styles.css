@@ -280,7 +280,7 @@ body {
   border-bottom: 1px solid #e7e9fc;
   padding: 32px 16px;
 }
-.curtain {
+.curtain-text {
   position: absolute;
   top: 0;
   left: 0;
@@ -292,11 +292,11 @@ body {
   transform: translateY(-100%);
   transition: transform 0.5s ease;
 }
-.curtain-text:hover .curtain {
+.curtain:hover .curtain-text {
   /*opacity: 1;*/
   transform: translateY(0);
 }
-.curtain-text {
+.curtain {
   position: relative;
   /* opacity: 0;*/
   /*transition: opacity 0.3s ease;*/
